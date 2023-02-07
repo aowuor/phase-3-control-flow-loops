@@ -21,9 +21,16 @@ def fizzbuzz(num)
   end
 end
 
+# def fizzbuzz_printer
+#   # your code here
+#   (1..100).each do |num|
+#     puts fizzbuzz(num)
+#   end
+# end
+
 def fizzbuzz_printer
   # your code here
-  (1..100).each do |num|
+  100.times do |num|
     puts fizzbuzz(num)
   end
 end
